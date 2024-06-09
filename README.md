@@ -1,34 +1,55 @@
-Code Editor
-This project is a collaborative code editor and output viewer built using React, Socket.IO, and Monaco Editor. It allows multiple users to edit HTML, CSS, and JavaScript code in real-time and see the results immediately in an embedded iframe.
+<!DOCTYPE html>
+<html lang="en">
 
-Features
-Real-time Collaboration: Multiple users can edit code simultaneously.
-Code Editors: Separate editors for HTML, CSS, and JavaScript with Monaco Editor.
-Live Preview: Real-time preview of the code output.
-Console Output: Logs and errors from the JavaScript execution are displayed.
-Responsive Design: Adjusts to different screen sizes for a better user experience.
+<body>
 
-Technologies Used
-React
-Socket.IO
-Monaco Editor
-Tailwind CSS
+  <h1>Code Editor</h1>
+  <p>
+    This project is a collaborative code editor and output viewer built using React, Socket.IO, and Monaco Editor. It allows multiple users to edit HTML, CSS, and JavaScript code in real-time and see the results immediately in an embedded iframe.
+  </p>
 
-Project Structure
-├── public
-│   └── index.html
-├── src
-│   ├── components
-│   │   ├── CodeEditor.js
-│   │   └── OutputFrame.js
-│   ├── App.js
-│   ├── index.css
-│   ├── index.js
-│   └── server.js
-└── package.json
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Real-time Collaboration:</strong> Multiple users can edit code simultaneously.</li>
+    <li><strong>Code Editors:</strong> Separate editors for HTML, CSS, and JavaScript with Monaco Editor.</li>
+    <li><strong>Live Preview:</strong> Real-time preview of the code output.</li>
+    <li><strong>Console Output:</strong> Logs and errors from the JavaScript execution are displayed.</li>
+    <li><strong>Responsive Design:</strong> Adjusts to different screen sizes for a better user experience.</li>
+  </ul>
 
-Acknowledgments
-Inspired by JSBin.
-Uses Monaco Editor.
-Contact
-For any questions or suggestions, please contact paul.lakandri50@gmail.com.
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>React</li>
+    <li>Socket.IO</li>
+    <li>Monaco Editor</li>
+    <li>Tailwind CSS</li>
+  </ul>
+
+  <h2>Project Structure</h2>
+  <div class="project-structure">
+    ├── public<br>
+    │   └── index.html<br>
+    ├── src<br>
+    │   ├── components<br>
+    │   │   ├── CodeEditor.js<br>
+    │   │   └── OutputFrame.js<br>
+    │   ├── App.js<br>
+    │   ├── index.css<br>
+    │   ├── index.js<br>
+    │   └── server.js<br>
+    └── package.json
+  </div>
+
+  <h2>Acknowledgments</h2>
+  <ul>
+    <li>Inspired by <a href="https://jsbin.com/" target="_blank">JSBin</a>.</li>
+    <li>Uses <a href="https://microsoft.github.io/monaco-editor/" target="_blank">Monaco Editor</a>.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>
+    For any questions or suggestions, please contact <a href="mailto:paul.lakandri50@gmail.com">paul.lakandri50@gmail.com</a>.
+  </p>
+
+</body>
+</html>
